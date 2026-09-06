@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Apps</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <h1>My Apps</h1>
+  <p class="tagline">Support and privacy policy pages for my apps.</p>
+
+  <section>
+    <ul class="app-list empty">
+      <li class="empty-state">No apps published yet. Check back soon.</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span>
+  </footer>
+
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

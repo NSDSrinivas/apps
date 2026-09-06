@@ -1,0 +1,157 @@
+:root {
+  --ink: #1c1c1c;
+  --paper: #fbfbf9;
+  --line: #d8d6d0;
+  --muted: #6b6b64;
+  --link: #1a4d8f;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+  font-size: 17px;
+}
+
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.app-id {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.app-id img {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.app-id .name {
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.app-id .name strong {
+  display: block;
+  font-size: 20px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.tagline {
+  color: var(--muted);
+  margin: 0 0 40px;
+  font-size: 16px;
+}
+
+section {
+  margin-bottom: 36px;
+}
+
+section h2 {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: none;
+  margin: 0 0 10px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+}
+
+p { margin: 0 0 14px; }
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(26,77,143,0.3);
+}
+
+a:hover { border-bottom-color: var(--link); }
+
+.contact-box {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.contact-box a {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+nav.pages {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--muted);
+}
+
+nav.pages a { margin-right: 16px; }
+
+footer {
+  margin-top: 56px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.app-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-list li {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+}
+
+.app-list a {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.app-list .empty-state {
+  color: var(--muted);
+  font-size: 15px;
+  border-style: dashed;
+}
+
+.placeholder-note {
+  background: #fff8e6;
+  border: 1px solid #e8d9a8;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #6b5a1f;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 480px) {
+  .wrap { padding: 32px 18px 60px; }
+  h1 { font-size: 22px; }
+}
