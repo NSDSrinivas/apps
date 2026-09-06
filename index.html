@@ -3,24 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Apps</title>
+<title>Srinivas's App Lab</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
+<div class="hub-wrap">
 
-  <h1>My Apps</h1>
-  <p class="tagline">Support and privacy policy pages for my apps.</p>
+  <div class="hub-hero">
+    <span class="hub-eyebrow">✨ App Lab</span>
+    <h1>Little apps, built with love.</h1>
+    <p>Support &amp; privacy pages for everything I ship — pick an app below.</p>
+  </div>
 
-  <section>
-    <ul class="app-list empty">
-      <li class="empty-state">No apps published yet. Check back soon.</li>
-    </ul>
-  </section>
+  <ul class="app-grid">
+    <li class="app-card">
+      <span class="badge">New</span>
+      <img class="app-icon" src="number-circuit/icon.png" alt="Number Circuit icon">
+      <div class="app-info">
+        <h2>Number Circuit</h2>
+        <p>[Placeholder tagline — a short one-liner about the app goes here.]</p>
+        <div class="app-links">
+          <a href="number-circuit/index.html">Support</a>
+          <a href="number-circuit/privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </li>
+  </ul>
 
-  <footer>
-    &copy; <span id="year"></span>
-  </footer>
+  <p class="hub-footer">More apps coming soon &middot; &copy; <span id="year"></span></p>
 
 </div>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

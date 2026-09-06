@@ -1,18 +1,21 @@
 # App pages
 
-A hub site listing support & privacy pages for my apps. No build step — plain HTML/CSS.
+A hub site ("App Lab") listing support & privacy pages for my apps. No build step — plain HTML/CSS.
 
 ## Structure
 
-- `index.html` — the hub page, lists all apps (currently empty)
-- `style.css` — shared styling
+- `index.html` — the hub page, lists all apps as cards
+- `style.css` — shared styling (hub layout + per-app page styles)
 - `icon.png` — placeholder site icon
-- Each app gets its own subfolder once it's ready, e.g.:
+- Each app has its own subfolder, e.g.:
   ```
-  /canyon-jumper/index.html   (Support page)
-  /canyon-jumper/privacy.html (Privacy Policy)
+  /number-circuit/index.html   (Support page)
+  /number-circuit/privacy.html (Privacy Policy)
+  /number-circuit/icon.png
   ```
-  Then add a link to it in the `.app-list` on the root `index.html`.
+  Add a link to it as an `<li class="app-card">` in the root `index.html`.
+
+Currently listed: **Number Circuit** (placeholder content — real name/email/icon/privacy details still needed).
 
 ## Publishing with GitHub Pages
 
