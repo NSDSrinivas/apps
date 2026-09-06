@@ -340,22 +340,6 @@ footer {
   color: var(--muted);
 }
 
-.app-card .app-links {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  gap: 14px;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.app-card .app-links a {
-  border-bottom: none;
-  color: var(--link);
-}
-
-.app-card .app-links a:hover { text-decoration: underline; }
-
 .store-icons {
   position: relative;
   z-index: 2;
