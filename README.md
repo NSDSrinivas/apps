@@ -25,9 +25,10 @@ Site: `https://nsdsrinivas.github.io/apps/`
 
 ## Adding a new app
 
-1. Create a subfolder for the app, e.g. `mkdir my-app`.
-2. Add `index.html` (Support page) and `privacy.html` (Privacy Policy) inside it — see git history or ask Claude to generate a template.
-3. Fill in the app name, real support email, real icon, and an accurate privacy policy matching the App Store Connect "App Privacy" answers.
-4. Add a link to the new app in the root `index.html`'s app list.
-5. Commit and push — Pages redeploys automatically.
-6. Use `https://nsdsrinivas.github.io/apps/my-app/` and `.../my-app/privacy.html` as the Support URL and Privacy Policy URL in App Store Connect.
+See [AGENTS.md](AGENTS.md) for the full workflow (also usable as a Claude Code skill: `.claude/skills/app-pages/`). Short version:
+
+1. `scripts/scaffold-app.sh <app-slug> [destination]` copies `_template/` into a new placeholder folder — locally, or into the app's own repo so an agent there can fill it in from the real source.
+2. Fill in `metadata/*.md` honestly, then apply that into `index.html`/`privacy.html` and swap in the real icon.
+3. `scripts/import-app.sh <finished-folder> <app-slug>` brings it back into this repo.
+4. Add an `<li class="app-card">` for it in the root `index.html`, commit, push.
+5. Use `https://nsdsrinivas.github.io/apps/<app-slug>/` and `.../<app-slug>/privacy.html` as the Support URL and Privacy Policy URL in App Store Connect.
