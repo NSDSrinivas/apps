@@ -16,9 +16,9 @@ A hub site listing support & privacy pages for my apps. No build step — plain 
 
 ## Publishing with GitHub Pages
 
-Already set up: pushed to `https://github.com/NSDSrinivas/app-pages`, served from `main` / root via Settings → Pages.
+Already set up: pushed to `https://github.com/NSDSrinivas/apps`, served from `main` / root via Settings → Pages.
 
-Site: `https://nsdsrinivas.github.io/app-pages/`
+Site: `https://nsdsrinivas.github.io/apps/`
 
 ## Adding a new app
 
@@ -27,4 +27,4 @@ Site: `https://nsdsrinivas.github.io/app-pages/`
 3. Fill in the app name, real support email, real icon, and an accurate privacy policy matching the App Store Connect "App Privacy" answers.
 4. Add a link to the new app in the root `index.html`'s app list.
 5. Commit and push — Pages redeploys automatically.
-6. Use `https://nsdsrinivas.github.io/app-pages/my-app/` and `.../my-app/privacy.html` as the Support URL and Privacy Policy URL in App Store Connect.
+6. Use `https://nsdsrinivas.github.io/apps/my-app/` and `.../my-app/privacy.html` as the Support URL and Privacy Policy URL in App Store Connect.
