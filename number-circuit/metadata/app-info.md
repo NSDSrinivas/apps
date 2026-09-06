@@ -1,12 +1,10 @@
 # App info
 
-Fill in and let me know when ready — this feeds the hub card, the app's dedicated page, and App Store Connect's "App Information" section.
-
-- **App name:** [e.g. Number Circuit]
-- **Subtitle** (30 chars max, App Store): [short punchy line]
-- **One-line tagline** (used on the hub card): [e.g. "Puzzle your way through number chains"]
-- **Category:** [e.g. Games > Puzzle]
-- **Marketing URL** (optional): [if you have a landing page besides this one]
-- **Real app icon:** drop a 1024x1024 PNG in this folder as `icon.png`, or say where it lives
+- **App name:** Number Circuit
+- **Subtitle** (30 chars max, App Store): Fast Mental Math Challenges
+- **One-line tagline** (used on the hub card): Sprint or survive fast mental-math challenges.
+- **Category:** Games > Puzzle (secondary: Education)
+- **Marketing URL** (optional): none yet — leave blank
+- **Real app icon:** copied from `AppStore/icon/AppIcon-1024.png` in the Number Circuit repo
 
 Support contact is shared across all apps — see the root `support.html`, not this file.
