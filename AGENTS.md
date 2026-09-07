@@ -8,7 +8,7 @@ Read this whole file before scaffolding, filling in, or importing an app's pages
 
 ```
 _template/               reference scaffold — copy this, never edit app content into it
-  index.html              the app's own dedicated page (icon, tagline, about, FAQ), [App Name] placeholders
+  index.html              the app's own dedicated page (icon, tagline, about, FAQ, optional Terms of Use), [App Name] placeholders
   privacy.html            the app's Privacy Policy page, [App Name] placeholders
   icon.png                placeholder icon
   metadata/               plain-language source-of-truth files, filled in per app
@@ -36,8 +36,9 @@ The point of `metadata/` is that another agent — one working inside the app's 
    - `metadata/description.md` — App Store description, keywords, promo text.
    - `metadata/privacy-details.md` — what data is actually collected and why, third parties, retention/deletion, children's privacy. This must match what will be declared in App Store Connect's "App Privacy" section.
    - `metadata/faq.md` — real FAQ for this app, or delete the file if there isn't one yet.
+   - `metadata/terms-of-use.md` — optional, verified product-specific terms. Delete the file and omit the section if no approved terms have been provided; never invent legal terms.
    - Replace `icon.png` with the real 1024×1024 icon.
-   - Then apply all of that into `index.html` (about/FAQ) and `privacy.html`: replace every `[App Name]`, fill in the sections from the metadata, and **remove the yellow placeholder banner and the `<!-- TODO -->` comment block** at the top of each file once the content is real.
+   - Then apply all of that into `index.html` (about/FAQ and, when provided, Terms of Use) and `privacy.html`: replace every `[App Name]`, fill in the sections from the metadata, and **remove the yellow placeholder banner and the `<!-- TODO -->` comment block** at the top of each file once the content is real. Keep the Terms of Use section after FAQ and before the page navigation, or leave it out entirely when there are no verified terms.
 3. **Import.** Bring the finished folder back into this repo: `scripts/import-app.sh <finished-folder-path> <app-slug>`.
 4. **Wire it into the hub.** Add or update an `<li class="app-card">` entry in the root `index.html`'s `<ul class="app-grid">`, matching the existing markup: an `<a class="card-link" href="<app-slug>/index.html" aria-label="Open <App Name>"></a>` as the card's first child (this is a "stretched link" — an absolutely-positioned, invisible `<a>` covering the whole card via CSS so the entire card is clickable and navigates to the app's page), then a `.app-icon-wrap` div holding the app icon (and optionally the App Store badge, see below), then `.app-info` with just the name and tagline. The card intentionally has **no Privacy Policy or Support link** — that's on the app's own page (via the back-link + nav), one tap away, so the card stays uncluttered. `.app-icon-wrap` stays independently clickable (the App Store badge) because it's `position: relative; z-index: 2`, above the card-link's `z-index: 1`. Don't add a separate "View app" button; the card-link already covers that. Remove the "New" badge once an app isn't new anymore, or add it for a freshly added one.
    - **Privacy and Support URLs still need to work as direct links regardless of the hub card** — App Store Connect's Support URL and Privacy Policy URL fields point straight at `<app-slug>/privacy.html` and the shared `support.html`, never through the hub. Don't let "not linked from the card" become "not reachable" — those pages must stay live and correct on their own.
