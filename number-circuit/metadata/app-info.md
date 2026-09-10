@@ -8,5 +8,6 @@
 - **App Store URL** (optional): https://apps.apple.com/app/id6809030586 (linked ahead of approval at the user's request — the app is not yet live, so this 404s until Apple approves it)
 - **Google Play URL** (optional): n/a — iOS only for now
 - **Real app icon:** copied from `AppStore/icon/AppIcon-1024.png` in the Number Circuit repo
+- **Third-party acknowledgement:** Number Circuit uses the Geist typeface. Copyright 2024 The Geist Project Authors. Geist is licensed under the SIL Open Font License, Version 1.1: https://openfontlicense.org/open-font-license-official-text/
 
 Support contact is shared across all apps — see the root `support.html`, not this file.
