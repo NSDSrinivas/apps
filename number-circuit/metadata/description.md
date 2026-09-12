@@ -1,51 +1,45 @@
 # App Store description
 
-- **Promotional text** (170 chars, editable without review): Sprint 10 questions or survive. Four operations, three difficulties, streak multipliers, challenge rounds, and personalized Daily Challenge history. Beat your best.
 - **Description:**
 
-Sprint through ten questions, or see how long you can survive.
+Make mental math part of your day.
 
-Number Circuit is a fast, focused mental-math trainer built for short, repeatable sessions — pick an operation, pick a difficulty, and go.
+Math Puzzles turns addition, subtraction, multiplication, and division into quick, repeatable challenges. Pick your pace, choose a theme, and see what you can do.
+
+MAKE IT YOURS
+Play with bold Vibrant colors, calm Nature greens, or a clean Minimal look that follows your device's Light and Dark Mode. Vibrant is included with free play; Nature and Minimal are included with the optional one-time Pro unlock.
+
+A CHALLENGE EVERY DAY
+Get a personalized Daily Challenge based on your recent play. Track completed days in your calendar, build your daily streak, and catch up on challenges you missed. Daily progress is personal and stays on your device.
 
 TWO WAYS TO PLAY
-- Sprint — a tight 10-question run against the clock. Land a perfect run for a big bonus.
-- Survival — no finish line. The clock gets a little less forgiving every question. How far can you get?
+Sprint: take on a 10-question run against the clock.
+Survival: keep going as the time allowed for each question gets shorter.
 
-FOUR OPERATIONS, THREE DIFFICULTIES
-Addition, subtraction, multiplication, and division, each with Warm-up, Focused, and Challenge difficulty tiers — so the numbers scale with you, not against you.
+FIND YOUR CHALLENGE
+Practice all four operations at Warm-up, Focused, or Challenge difficulty. Choose a comfortable starting point or push yourself with tougher numbers.
 
-SCORING THAT REWARDS SPEED AND CONSISTENCY
-- Answer fast for a speed bonus
-- Chain correct answers for a streak multiplier, up to 2x
-- Watch for Challenge questions worth extra points
-- Land a perfect Sprint run for a +500 bonus
-- Hit survival milestones for bonus points
+CHASE YOUR BEST
+Earn bonuses for quick answers and consecutive correct answers. Track your best scores for each operation, mode, and difficulty, then review your answers after each run. Three hearts give you room to recover, and mistakes reveal the correct answer.
 
-THREE HEARTS, NOT ONE STRIKE
-A wrong answer or a timeout costs a heart and shows you the correct answer — so a mistake teaches you something instead of just ending the run.
-
-TRACK YOUR BEST
-Every operation, difficulty, and mode keeps its own best score, so warming up on Addition and pushing your limits on Hard Division never get mixed up.
-
-DAILY CHALLENGE & HISTORY
-Get one personalized Daily Challenge built around your recent play, then revisit your Daily Streak history and past results. Daily progress stays on your device.
+MADE FOR iPHONE AND iPAD
+Play with layouts that adapt to your screen and available window. Use the on-screen keypad or a hardware keyboard, and adjust haptic feedback in Settings.
 
 OPTIONAL GAME CENTER
-Sign in with Apple Game Center when you choose to submit scores to leaderboards. Game Center authentication and leaderboard data are handled by Apple; the game remains fully playable without it.
+Compare regular Sprint and Survival scores on Game Center leaderboards. Daily Challenges remain personal, and you can play without Game Center.
 
-BUILT TO BE PLAYED PROPERLY
-Full VoiceOver support, Dynamic Type-friendly text, Reduce Motion support, and a real hardware-keyboard-friendly answer field alongside the on-screen keypad.
+FREE DAILY PLAY
+Start with five free runs per day. The optional one-time Number Spark Pro purchase unlocks unlimited play and the Nature and Minimal themes. No subscription. Optional tips support development and do not unlock features.
 
-No ads, analytics, or tracking. Your game data is stored locally on your device. Game Center is optional and handled by Apple.
+No ads or tracking. Your scores, daily history, and settings are stored locally on your device. Purchases and optional Game Center services are handled by Apple.
 
-- **Keywords** (100 chars, comma-separated, no spaces needed): arithmetic,trainer,quiz,times,tables,multiplication,addition,subtraction,division,practice,brain
 - **What's New / release notes for this version:**
 
-Welcome to Number Circuit!
+Make Math Puzzles yours with three themes: bold Vibrant, calm Nature, and Minimal with Light and Dark Mode.
 
-- Sprint mode: race through 10 questions before your hearts run out
-- Survival mode: endless runs with a clock that gets tighter over time
-- Four operations x three difficulties, with Challenge questions in the mix
-- Streak multipliers, speed bonuses, and mode-specific best scores
-- Full VoiceOver and Dynamic Type support
-- Personalized Daily Challenge, Daily Streak history, and optional Game Center leaderboards
+This update also brings:
+• Layouts designed for iPhone and iPad, including portrait and landscape play.
+• An updated daily calendar for tracking your streak and catching up on missed challenges.
+• Refreshed Settings with theme selection, haptic feedback, and leaderboard access.
+
+Vibrant is included with free play. The optional one-time Pro unlock adds unlimited play plus Nature and Minimal.
