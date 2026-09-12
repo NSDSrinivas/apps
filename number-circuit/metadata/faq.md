@@ -1,7 +1,7 @@
 # FAQ
 
 - **Q: Why does the app say Number Spark?**
-  A: Math Puzzles is the App Store name. On your device and inside the app, it is called Number Spark.
+  A: Number Spark: Math Puzzles is the App Store name. On your device and inside the app, it is called Number Spark.
 - **Q: Is it free to play?**
   A: You get five free runs per local calendar day, shared across regular runs, Daily Challenges, catch-up, and replays. The allowance resets each day.
 - **Q: What does Number Spark Pro include?**
