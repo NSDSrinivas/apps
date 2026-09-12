@@ -1,5 +1,7 @@
-# Device screenshots
+# Product-page images
 
-The iPhone and iPad galleries contain six unmodified real simulator captures each from NumberCruncher/AppStore/1.1/draft 2/raw, captured September 12, 2026. Source capture manifests remain in that app repository. iPhone captures use iPhone 17 Pro Max; iPad captures use iPad mini (A17 Pro).
+The product page uses the six prepared App Store marketing PNGs per device from NumberCruncher/AppStore/1.1/draft 2/iPhone and iPad, as explicitly requested by the user. These are the same exports uploaded to App Store Connect on September 12, 2026. They are generated marketing mockups based on real app captures; source provenance and checksums are recorded in draft 2/README.md and validation.json.
 
-Order: Vibrant Home, gameplay, results, daily calendar, Nature Home, Minimal Home. Nature and Minimal require Pro. These are fixture-based product captures, not generated marketing artwork. Older root-level images are retained as historical assets and are no longer referenced by the pages.
+Order: Make It Yours, A Challenge Every Day, Make Mental Math Fun, Chase Your Best, Find Your Challenge, Build Your Daily Streak.
+
+The iphone/app-store and ipad/app-store directories hold the original exports without modification. Earlier raw captures remain in the parent device directories; the hub still uses those captures. Older root-level images are historical assets.
