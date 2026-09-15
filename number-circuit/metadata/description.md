@@ -5,7 +5,7 @@
 
 Make mental math part of your day.
 
-Math Puzzles turns addition, subtraction, multiplication, and division into quick, repeatable challenges. Pick your pace, choose a theme, and see what you can do.
+Number Spark: Math Puzzle turns addition, subtraction, multiplication, and division into quick, repeatable challenges. Pick your pace, choose a theme, and see what you can do.
 
 MAKE IT YOURS
 Play with bold Vibrant colors, calm Pleasant greens, or a clean Minimal look that follows your device's Light and Dark Mode. Vibrant is included with free play; Pleasant and Minimal are included with the optional one-time Pro unlock.
@@ -37,7 +37,7 @@ No ads or tracking. Your scores, daily history, and settings are stored locally 
 - **Keywords** (100 chars, comma-separated, no spaces needed): arithmetic,trainer,quiz,times,tables,multiplication,addition,subtraction,division,practice,speed
 - **What's New / release notes for this version:**
 
-Make Math Puzzles yours with three themes: bold Vibrant, calm Pleasant, and Minimal with Light and Dark Mode.
+Make Number Spark: Math Puzzle yours with three themes: bold Vibrant, calm Pleasant, and Minimal with Light and Dark Mode.
 
 This update also brings:
 • Layouts designed for iPhone and iPad, including portrait and landscape play.
