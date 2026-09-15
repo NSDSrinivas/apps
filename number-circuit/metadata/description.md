@@ -1,13 +1,14 @@
 # App Store description
 
+- **Promotional text** (170 chars, editable without review): Play five free runs each day, build your streak, catch up on Daily Challenges, and choose from three themes. Unlock unlimited play once with Number Spark Pro.
 - **Description:**
 
 Make mental math part of your day.
 
-Number Spark: Math Puzzles turns addition, subtraction, multiplication, and division into quick, repeatable challenges. Pick your pace, choose a theme, and see what you can do.
+Math Puzzles turns addition, subtraction, multiplication, and division into quick, repeatable challenges. Pick your pace, choose a theme, and see what you can do.
 
 MAKE IT YOURS
-Play with bold Vibrant colors, calm Nature greens, or a clean Minimal look that follows your device's Light and Dark Mode. Vibrant is included with free play; Nature and Minimal are included with the optional one-time Pro unlock.
+Play with bold Vibrant colors, calm Pleasant greens, or a clean Minimal look that follows your device's Light and Dark Mode. Vibrant is included with free play; Pleasant and Minimal are included with the optional one-time Pro unlock.
 
 A CHALLENGE EVERY DAY
 Get a personalized Daily Challenge based on your recent play. Track completed days in your calendar, build your daily streak, and catch up on challenges you missed. Daily progress is personal and stays on your device.
@@ -29,17 +30,18 @@ OPTIONAL GAME CENTER
 Compare regular Sprint and Survival scores on Game Center leaderboards. Daily Challenges remain personal, and you can play without Game Center.
 
 FREE DAILY PLAY
-Start with five free runs per day. The optional one-time Number Spark Pro purchase unlocks unlimited play and the Nature and Minimal themes. No subscription. Optional tips support development and do not unlock features.
+Start with five free runs per day. The optional one-time Number Spark Pro purchase unlocks unlimited play and the Pleasant and Minimal themes. No subscription. Optional tips support development and do not unlock features.
 
 No ads or tracking. Your scores, daily history, and settings are stored locally on your device. Purchases and optional Game Center services are handled by Apple.
 
+- **Keywords** (100 chars, comma-separated, no spaces needed): arithmetic,trainer,quiz,times,tables,multiplication,addition,subtraction,division,practice,speed
 - **What's New / release notes for this version:**
 
-Make Number Spark: Math Puzzles yours with three themes: bold Vibrant, calm Nature, and Minimal with Light and Dark Mode.
+Make Math Puzzles yours with three themes: bold Vibrant, calm Pleasant, and Minimal with Light and Dark Mode.
 
 This update also brings:
 • Layouts designed for iPhone and iPad, including portrait and landscape play.
 • An updated daily calendar for tracking your streak and catching up on missed challenges.
 • Refreshed Settings with theme selection, haptic feedback, and leaderboard access.
 
-Vibrant is included with free play. The optional one-time Pro unlock adds unlimited play plus Nature and Minimal.
+Vibrant is included with free play. The optional one-time Pro unlock adds unlimited play plus Pleasant and Minimal.
