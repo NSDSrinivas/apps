@@ -66,6 +66,24 @@
   </div>
   -->
 
+  <!--
+    Optional device segments: use this instead of the single gallery above.
+    Include only devices with real screenshots. Supported labels: iPhone,
+    iPad, Mac, Apple Watch. Duplicate a data-device block for each device.
+    The selector appears automatically when two or more groups contain images.
+    Without JavaScript, all groups remain visible. See metadata/screenshots/README.md.
+  -->
+  <!--
+  <div data-screenshot-gallery>
+    <div class="screenshots" data-device="iPhone" aria-label="iPhone screenshots">
+      <img src="metadata/screenshots/iphone/1.png" alt="[Describe the iPhone screen]">
+    </div>
+    <div class="screenshots" data-device="iPad" aria-label="iPad screenshots">
+      <img src="metadata/screenshots/ipad/1.png" alt="[Describe the iPad screen]">
+    </div>
+  </div>
+  -->
+
   <section>
     <h2>About</h2>
     <p>[Full app description goes here.]</p>
@@ -103,6 +121,6 @@
   </footer>
 
 </div>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="../site.js"></script>
 </body>
 </html>
