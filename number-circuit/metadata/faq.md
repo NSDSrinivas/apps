@@ -12,6 +12,8 @@
   A: Sprint is a 10-question run. Survival keeps going as the time allowed for each question gets shorter. A wrong answer or timeout costs one of three hearts and reveals the correct answer.
 - **Q: Can I catch up on missed Daily Challenges?**
   A: Yes. Open the Streak tab and select a past day to catch up. Daily Challenges use your recent play to choose an operation and difficulty. Completed days count toward your streak, and daily results stay personal rather than going to leaderboards.
+- **Q: How do Daily Challenge reminders work?**
+  A: In Settings, turn on Daily Challenge Reminder and choose a local time. The reminder is optional and scheduled on your device; you can turn it off at any time. iOS asks for notification permission only when you opt in.
 - **Q: Does it work on iPad?**
   A: Yes. Layouts adapt to iPhone, iPad, and the available window. You can use the on-screen keypad or a hardware keyboard.
 - **Q: Are there ads or tracking?**

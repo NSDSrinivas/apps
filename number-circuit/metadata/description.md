@@ -1,6 +1,6 @@
 # App Store description
 
-- **Promotional text** (170 chars, editable without review): Play five free runs each day, build your streak, catch up on Daily Challenges, and choose from three themes. Unlock unlimited play once with Number Spark Pro.
+- **Promotional text** (170 chars, editable without review): Build a Daily Challenge streak with optional reminders at your chosen time. Play five free runs each day, catch up on missed challenges, and explore three themes.
 - **Description:**
 
 Make mental math part of your day.
@@ -11,7 +11,7 @@ MAKE IT YOURS
 Play with bold Vibrant colors, calm Pleasant greens, or a clean Minimal look that follows your device's Light and Dark Mode. Vibrant is included with free play; Pleasant and Minimal are included with the optional one-time Pro unlock.
 
 A CHALLENGE EVERY DAY
-Get a personalized Daily Challenge based on your recent play. Track completed days in your calendar, build your daily streak, and catch up on challenges you missed. Daily progress is personal and stays on your device.
+Get a personalized Daily Challenge based on your recent play. Track completed days in your calendar, build your daily streak, and catch up on challenges you missed. Turn on an optional reminder in Settings and choose a time that suits you. Daily progress is personal and stays on your device.
 
 TWO WAYS TO PLAY
 Sprint: take on a 10-question run against the clock.
@@ -37,11 +37,6 @@ No ads or tracking. Your scores, daily history, and settings are stored locally 
 - **Keywords** (100 chars, comma-separated, no spaces needed): arithmetic,trainer,quiz,times,tables,multiplication,addition,subtraction,division,practice,speed
 - **What's New / release notes for this version:**
 
-Make Number Spark: Math Puzzle yours with three themes: bold Vibrant, calm Pleasant, and Minimal with Light and Dark Mode.
+Stay on track with optional Daily Challenge reminders. Turn them on in Settings and choose a time that works for you.
 
-This update also brings:
-• Layouts designed for iPhone and iPad, including portrait and landscape play.
-• An updated daily calendar for tracking your streak and catching up on missed challenges.
-• Refreshed Settings with theme selection, haptic feedback, and leaderboard access.
-
-Vibrant is included with free play. The optional one-time Pro unlock adds unlimited play plus Pleasant and Minimal.
+This update also refines the Home screen and makes it easier to jump into your next challenge.
