@@ -4,7 +4,7 @@
 - **Subtitle** (30 chars max, App Store): Expense & Budget Tracker
 - **One-line tagline** (used on the hub card): Track spending and budgets, synced privately across your devices.
 - **Category:** Finance (secondary: Productivity)
-- **Marketing URL** (optional): (none)
+- **Marketing URL** (optional): https://nsdsrinivas.github.io/apps/spendra/index.html
 - **App Store URL** (optional): (coming soon — no live public listing yet)
 - **Google Play URL** (optional, once there's an Android build): (not applicable — iOS/macOS/watchOS only)
 - **Real app icon:** copied from `Spendra/Resources/Assets.xcassets/AppIcon.appiconset/Spendra-AppIcon-1024.png` in the app repo

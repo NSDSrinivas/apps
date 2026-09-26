@@ -1,8 +1,7 @@
 # Terms of Use
 
-**Recommendation (read before publishing):** Apple's Standard End User License Agreement (EULA) already applies to Spendra by default and covers the legally load-bearing subscription terms (auto-renewal, cancellation mechanics, refund handling, warranty disclaimers) in Apple-vetted language: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ — nothing needs to be done in App Store Connect to keep using it. The terms below are a **short, plain-language supplement** that restates the Standard EULA's terms in Spendra-specific language and adds a few product-specific points (the free tier, data ownership, no financial advice) that the generic EULA doesn't cover. They're drafted to be consistent with, not a replacement for, the Standard EULA. This is not a substitute for legal review — have a lawyer check this before treating it as binding, especially the placeholder marked below.
 
-Last updated: 7 September 2026
+Last updated: 26 September 2026
 
 ## 1. Acceptance
 
@@ -12,7 +11,7 @@ By downloading or using Spendra, you agree to these Terms of Use and to Apple's 
 
 Spendra is a personal expense-tracking and budgeting utility. It does not connect to bank accounts, does not provide investment or financial advice, and does not guarantee the accuracy of any calculation, insight, or subscription/price-change detection it surfaces — you're responsible for verifying anything you rely on for a financial decision.
 
-Spendra's free tier includes unlimited manual expense tracking, your dashboard, a basic monthly budget, and full access to export or delete your own data, with no sign-in required. **Spendra Pro** is an optional in-app purchase (monthly or annual auto-renewing subscription, or a one-time lifetime purchase) that unlocks additional features described in the app and on this page. Feature availability may change between app versions; we'll describe what's included accurately at the time of purchase.
+Spendra's free tier includes unlimited manual expense tracking, your dashboard, an overall monthly budget, free JSON backup and restore, and access to delete your own data, with no sign-in required. **Spendra Pro** is an optional in-app purchase (monthly or annual auto-renewing subscription, or a one-time lifetime purchase) that unlocks additional features described in the app and on this page. Feature availability may change between app versions; we'll describe what's included accurately at the time of purchase.
 
 ## 3. Subscriptions and purchases
 
@@ -40,10 +39,6 @@ Spendra is provided "as is," without warranty of any kind, to the extent permitt
 
 We may update these terms as Spendra changes. Material changes will be reflected here with an updated "Last updated" date. Continued use after a change means you accept the updated terms.
 
-## 8. Governing law
-
-**[OWNER TO SUPPLY: state the jurisdiction whose law governs these terms — typically wherever your business is legally based. Left as a placeholder rather than guessed.]**
-
-## 9. Contact
+## 8. Contact
 
 Questions about these terms: see the [Support page](../support.html).
