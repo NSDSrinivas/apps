@@ -1,0 +1,97 @@
+[
+  {
+    "file": "iphone/01-home.png",
+    "source": "Marketing/Video/2026-10-14-cinema-v2/Captures/home-iphone17promax-portrait-vibrant-dark-pro.png",
+    "sha256": "31f48414c32fbfe5776dee0da097057784a50854e287900505fdf4aad38cf484"
+  },
+  {
+    "file": "iphone/02-gameplay.png",
+    "source": "Marketing/Video/2026-10-14-cinema-v2/Captures/gameplay-iphone17promax-portrait-vibrant-dark-pro.png",
+    "sha256": "14ebb8d69980e97fb6a47a348aa2a35eb3d31c232e12997a07763b7f09c88757"
+  },
+  {
+    "file": "iphone/03-results.png",
+    "source": "Marketing/Video/2026-10-14-cinema-v2/Captures/results-iphone17promax-portrait-vibrant-dark-pro.png",
+    "sha256": "302c7e0a6f11ff041b6de18edf06d7e2e4717625d2d20bad359adba55324073c"
+  },
+  {
+    "file": "iphone/04-streak.png",
+    "source": "Marketing/Video/2026-10-14-cinema-v2/Captures/streak-iphone17promax-portrait-vibrant-dark-pro.png",
+    "sha256": "a969f60fdae31f40914001d7f2e77b393c9f961b4a773b62600c2218f2daf40c"
+  },
+  {
+    "file": "iphone/05-pleasant.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/iPhone/pleasant/home-iphone17promax-portrait-pleasant-dark-pro.png",
+    "sha256": "ba59b758e00579c47cc683940d2cb219f1286c013f0675a297214e5b9b7870c3"
+  },
+  {
+    "file": "iphone/06-minimal.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/iPhone/minimal/home-iphone17promax-portrait-minimal-dark-pro.png",
+    "sha256": "900bf6e9c60ea33f638d057d90dcb4e637ef02dd4665719f61821557a845dd75"
+  },
+  {
+    "file": "ipad/05-pleasant.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/iPad/pleasant/home-ipadmini-portrait-pleasant-dark-pro.png",
+    "sha256": "6d693007e58a7f5d336820c3ce7b5f8020a35608d7da570abcda32cb07596fb4"
+  },
+  {
+    "file": "ipad/06-minimal.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/iPad/minimal/home-ipadmini-portrait-minimal-dark-pro.png",
+    "sha256": "51a6237b0cc337e80c1b664b594c5be2b8e7613f133e2c8fc628cc2196a0eba2"
+  },
+  {
+    "file": "ipad/01-home.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/iPad/vibrant/home-ipadmini-portrait-vibrant-dark-pro.png",
+    "sha256": "6e367efaaece7218412c989214a834e8a07448d1b19575bf541adb09b47fb8ec"
+  },
+  {
+    "file": "ipad/02-gameplay.png",
+    "source": "iOS/AppStore/1.5/draft 1/raw/iPad/vibrant-final/gameplay-ipadmini-portrait-vibrant-dark-pro.png",
+    "sha256": "70b606624e8b52581c0cfc54c5600fda7ff8a90c1aaa114ea74e5b2a395a6bdb"
+  },
+  {
+    "file": "ipad/03-results.png",
+    "source": "iOS/AppStore/1.5/draft 1/raw/iPad/vibrant-final/results-ipadmini-portrait-vibrant-dark-pro.png",
+    "sha256": "12b43912c6f7f929cc1e879132104633c458957d7786460278f7661b83dd7ccb"
+  },
+  {
+    "file": "ipad/04-streak.png",
+    "source": "iOS/AppStore/1.5/draft 1/raw/iPad/vibrant-final/streak-ipadmini-portrait-vibrant-dark-pro.png",
+    "sha256": "5480b3318e8e31a5c2e0deec4ce32098c642b7d957f5781f5fa5ddc34f857e95"
+  },
+  {
+    "file": "duo/01-home-vibrant.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/Duo/closed/vibrant/home-duo-closed-portrait-vibrant-dark-pro.png",
+    "sha256": "4aa41e37dd63824fb882435a7ad3628c984afe74f05d745cdc6ab43feedda182"
+  },
+  {
+    "file": "duo/02-home-pleasant.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/Duo/closed/pleasant/home-duo-closed-portrait-pleasant-dark-pro.png",
+    "sha256": "a54eb7cd93087d4f9c77e3e40b63d6afb140dcdbc39ae9217a08c1470993308f"
+  },
+  {
+    "file": "duo/03-home-minimal.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/Duo/closed/minimal/home-duo-closed-portrait-minimal-dark-pro.png",
+    "sha256": "79ed8b41e55be4ccc55cbece701a9c74f5193d1269bf5125d3196e894b805b06"
+  },
+  {
+    "file": "duo/04-gameplay.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/Duo/open-landscape/vibrant/gameplay-duo-open-landscape-vibrant-dark-pro.png",
+    "sha256": "b5487126a9722e714c27de054fff81b0ca0d43c7dff26503fcb4c4ccbeb0c1c1"
+  },
+  {
+    "file": "duo/05-results.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/Duo/open-landscape/vibrant/results-duo-open-landscape-vibrant-dark-pro.png",
+    "sha256": "27350d05a829626b980feed8138395ab8e1bf84d7dd83cc62a0b30070be3ff02"
+  },
+  {
+    "file": "duo/06-partial-home.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/Duo/partial-landscape/pleasant/home-duo-partial-landscape-pleasant-dark-pro.png",
+    "sha256": "116c38832069047364896252960aa88e1d1bea420affb6d309209776935339c3"
+  },
+  {
+    "file": "duo/07-streak.png",
+    "source": "iOS/AppStore/1.5/draft 2/raw/Duo/open-portrait/vibrant/streak-duo-open-portrait-vibrant-dark-pro.png",
+    "sha256": "d350920c34a2982d4e8f78de9504f26e0f14c679c4a71b5f6cb4cab9d294c556"
+  }
+]
