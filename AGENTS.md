@@ -2,7 +2,15 @@
 
 This repo is a GitHub Pages "App Lab" hub. The root `index.html` lists every app as a card; each app has its own dedicated subfolder with its own info page and its own Privacy Policy page. Support is a single shared page (`support.html`) for all apps, since the contact channel is the same regardless of which app someone's writing about. Live at `https://nsdsrinivas.github.io/apps/`.
 
-Read this whole file before scaffolding, filling in, or importing an app's pages — it applies whether you're Claude Code, Codex, or any other agent working in this repo or in an app's own repo on this machine.
+## Find the instructions for your task
+
+Start with [Layout](#layout) and [Ground rules](#ground-rules). Follow the sections for the files and behaviour your task touches, whether you work in this repository or the app's own repository.
+
+- For a new or updated app record, read [Adding or updating an app](#workflow-adding-or-updating-an-app) and [App page layout](#app-page-layout). Use the hub and privacy routes when those pages also change.
+- For a hub card or shared hub styling, read [Hub cards](#hub-cards). Use [Download links](#download-links) when changing a store pill or download button.
+- For a privacy policy, read [Privacy policies](#privacy-policies) and the relevant [Apple requirements](#what-apple-actually-requires-why-the-pages-are-built-this-way).
+- For shared support, read [Updating the shared Support page](#updating-the-shared-support-page) and the relevant [Apple requirements](#what-apple-actually-requires-why-the-pages-are-built-this-way).
+- For a publication task, follow [Publishing](#publishing).
 
 ## Layout
 
@@ -34,24 +42,48 @@ The point of `metadata/` is that another agent — one working inside the app's 
 2. **Fill in**, ideally from inside the app's own repo:
    - `metadata/app-info.md` — real app name, subtitle, tagline, category, icon. (Support email is NOT per-app — it lives once in the root `support.html`.)
    - `metadata/description.md` — App Store description, keywords, promo text.
-   - `metadata/privacy-details.md` — what data is actually collected and why, third parties, retention/deletion, children's privacy. This must match what will be declared in App Store Connect's "App Privacy" section.
+   - `metadata/privacy-details.md` — see [Privacy policies](#privacy-policies).
    - `metadata/faq.md` — real FAQ for this app, or delete the file if there isn't one yet.
    - `metadata/terms-of-use.md` — optional, verified product-specific terms. Delete the file and omit the section if no approved terms have been provided; never invent legal terms.
    - Replace `icon.png` with the real 1024×1024 icon.
    - Then apply all of that into `index.html` (about/FAQ and, when provided, Terms of Use) and `privacy.html`: replace every `[App Name]`, fill in the sections from the metadata, and **remove the yellow placeholder banner and the `<!-- TODO -->` comment block** at the top of each file once the content is real. Keep the Terms of Use section after FAQ and before the page navigation, or leave it out entirely when there are no verified terms.
 3. **Import.** Bring the finished folder back into this repo: `scripts/import-app.sh <finished-folder-path> <app-slug>`.
-4. **Wire it into the hub.** Add or update an `<li class="app-card">` entry in the root `index.html`'s `<ul class="app-grid">`, matching the existing markup: an `<a class="card-link" href="<app-slug>/index.html" aria-label="Open <App Name>"></a>` as the card's first child (this is a "stretched link" — an absolutely-positioned, invisible `<a>` covering the whole card via CSS so the entire card is clickable and navigates to the app's page), then a `.app-icon-wrap` div holding the app icon (and optionally the App Store badge, see below), then `.app-info` with just the name and tagline. The card intentionally has **no Privacy Policy or Support link** — that's on the app's own page (via the back-link + nav), one tap away, so the card stays uncluttered. `.app-icon-wrap` stays independently clickable (the App Store badge) because it's `position: relative; z-index: 2`, above the card-link's `z-index: 1`. Don't add a separate "View app" button; the card-link already covers that. Remove the "New" badge once an app isn't new anymore, or add it for a freshly added one.
-   - **Privacy and Support URLs still need to work as direct links regardless of the hub card** — App Store Connect's Support URL and Privacy Policy URL fields point straight at `<app-slug>/privacy.html` and the shared `support.html`, never through the hub. Don't let "not linked from the card" become "not reachable" — those pages must stay live and correct on their own.
-   - **The card's hover effect must stay gated behind `@media (hover: hover) and (pointer: fine)`.** A `:hover` style on the card (an ancestor of the stretched card-link) is a known iOS Safari trap: without the media query gate, the first tap only triggers `:hover` and a second tap is needed to actually navigate. Don't remove that gate when touching `.app-card:hover`.
-   - **Download icons/buttons are optional — never link a placeholder or a not-yet-live App Store listing.** Two places use them, both only once `metadata/app-info.md` has a real App Store URL:
-     - **Hub card:** a small `.store-pill` overlapping the bottom-right corner of the icon inside `.app-icon-wrap` (see `index.html` for the exact markup) — the Apple SVG plus a short "GET" label, deliberately mirroring Apple's own App Store button copy so it unambiguously reads as a download action rather than a decorative badge. An icon-only badge without text was tried first and wasn't self-explanatory enough — keep the text label.
-     - **App's own page:** a prominent `.download-cta` block (a black `.store-button` with the Apple SVG + "Download on the App Store" text, plus a `.download-help` one-line helper like "Free to play, works offline, no account required.") placed right after the tagline, before screenshots/About. `_template/index.html` ships this commented out — uncomment and fill in the href once there's a URL.
-     - A Google Play version of each can be added the same way once there's an Android build — a second `.store-pill` next to the first (e.g. "GET" → keep both short), and a second `.store-button` inside the same `.download-cta`.
-   - **Screenshots are optional and must be real.** `_template/index.html` ships a commented-out `.screenshots` horizontal-scroll carousel (plain CSS, `overflow-x: auto` + scroll-snap, no JS) right after the download CTA. Only uncomment once real screenshots exist in the app's `metadata/screenshots/`; never use placeholder or fabricated images.
-   - **Section headers (`section h2`, e.g. "About", "FAQ", and privacy/support section titles) are styled globally** with a colored accent bar — no per-app markup needed, just use `<section><h2>...</h2>...</section>` as usual.
-   - **Back link.** Every app's own page (and `_template/index.html`) opens with `<a class="back-link" href="../index.html">&larr; All apps</a>` right after the placeholder banner, above `.app-id` — keep this on every app page so there's always a visible way back to the hub without relying on the browser's back button.
-5. **Publish.** `git add`, commit, push. GitHub Pages (`main` / root) redeploys automatically in about a minute.
-6. **Report** the live URLs — `.../<app-slug>/index.html`, `.../<app-slug>/privacy.html`, and the shared `.../support.html` — the app-specific and Support URLs go into App Store Connect's Support URL and Privacy Policy URL fields (Apple wants a Support URL per app, so point it at the shared `support.html` for every app — that's fine, it's still live, public, and reachable per app).
+
+After adding or changing a record, check its corresponding [hub card](#hub-cards).
+
+## Hub cards
+
+Add or update an `<li class="app-card">` entry in the root `index.html`'s `<ul class="app-grid">`, matching the existing markup: an `<a class="card-link" href="<app-slug>/index.html" aria-label="Open <App Name>"></a>` as the card's first child (this is a "stretched link" — an absolutely-positioned, invisible `<a>` covering the whole card via CSS so the entire card is clickable and navigates to the app's page), then a `.app-icon-wrap` div holding the app icon (with an optional [store pill](#download-links)), then `.app-info` with just the name and tagline. The card intentionally has **no Privacy Policy or Support link** — that's on the app's own page (via the back-link + nav), one tap away, so the card stays uncluttered. `.app-icon-wrap` stays independently clickable (the App Store badge) because it's `position: relative; z-index: 2`, above the card-link's `z-index: 1`. Don't add a separate "View app" button; the card-link already covers that. Remove the "New" badge once an app isn't new anymore, or add it for a freshly added one.
+
+Keep the [direct privacy and support URLs](#privacy-policies) reachable.
+
+**The card's hover effect must stay gated behind `@media (hover: hover) and (pointer: fine)`.** A `:hover` style on the card (an ancestor of the stretched card-link) is a known iOS Safari trap: without the media query gate, the first tap only triggers `:hover` and a second tap is needed to actually navigate. Don't remove that gate when touching `.app-card:hover`.
+
+## App page layout
+
+- **Screenshots are optional and must be real.** `_template/index.html` ships a commented-out `.screenshots` horizontal-scroll carousel (plain CSS, `overflow-x: auto` + scroll-snap, no JS) right after the download CTA. Only uncomment once real screenshots exist in the app's `metadata/screenshots/`; never use placeholder or fabricated images.
+- **Section headers (`section h2`, e.g. "About", "FAQ", and privacy/support section titles) are styled globally** with a colored accent bar — no per-app markup needed, just use `<section><h2>...</h2>...</section>` as usual.
+- **Back link.** Every app's own page (and `_template/index.html`) opens with `<a class="back-link" href="../index.html">&larr; All apps</a>` right after the placeholder banner, above `.app-id` — keep this on every app page so there's always a visible way back to the hub without relying on the browser's back button.
+
+## Download links
+
+**Download icons/buttons are optional — never link a placeholder or a not-yet-live App Store listing.** Two places use them, both only once `metadata/app-info.md` has a real App Store URL:
+
+- **Hub card:** a small `.store-pill` overlapping the bottom-right corner of the icon inside `.app-icon-wrap` (see `index.html` for the exact markup) — the Apple SVG plus a short "GET" label, deliberately mirroring Apple's own App Store button copy so it unambiguously reads as a download action rather than a decorative badge. An icon-only badge without text was tried first and wasn't self-explanatory enough — keep the text label.
+- **App's own page:** a prominent `.download-cta` block (a black `.store-button` with the Apple SVG + "Download on the App Store" text, plus a `.download-help` one-line helper like "Free to play, works offline, no account required.") placed right after the tagline, before screenshots/About. `_template/index.html` ships this commented out — uncomment and fill in the href once there's a URL.
+- A Google Play version of each can be added the same way once there's an Android build — a second `.store-pill` next to the first (e.g. "GET" → keep both short), and a second `.store-button` inside the same `.download-cta`.
+
+## Privacy policies
+
+Update the app’s `metadata/privacy-details.md` and `privacy.html` together. Describe what data is actually collected and why, third parties, retention/deletion, and children’s privacy. The policy must match the app’s App Store Connect “App Privacy” disclosures.
+
+**Privacy and Support URLs still need to work as direct links regardless of the hub card** — App Store Connect's Support URL and Privacy Policy URL fields point straight at `<app-slug>/privacy.html` and the shared `support.html`, never through the hub. Don't let "not linked from the card" become "not reachable" — those pages must stay live and correct on their own.
+
+## Publishing
+
+`git add`, commit, push. GitHub Pages (`main` / root) redeploys automatically in about a minute.
+
+Report the app page (`.../<app-slug>/index.html`), privacy policy (`.../<app-slug>/privacy.html`), and shared support (`.../support.html`) URLs. In App Store Connect, use the app’s privacy URL for Privacy Policy URL and the shared support URL for Support URL.
 
 ## Updating the shared Support page
 
